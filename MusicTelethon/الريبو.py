@@ -30,7 +30,7 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ تم اعاده تشغيل موسيقى تليثون**")
+    await loli.edit("**✅ تم اعاده تشغيل موسيقى جيبثون)
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 @Client.on_message(filters.command(["اوامر الاغاني"], prefixes=f"{HNDLR}"))
@@ -39,7 +39,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 اهلا {m.from_user.mention}!
 
-𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 𝘵𝘦𝘭𝘦𝘵𝘩𝘰𝘯
+𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 𝘫𝘦𝘱𝘵𝘩𝘰𝘯 
 ——————×—————
 
 ⧉ | لتشغيل صوتية في المكالمة أرسل ⇦ [ `{HNDLR}تشغيل  + اسم الاغنية` ]
@@ -65,7 +65,7 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋  اهلا {m.from_user.mention}!
 
-🎶 هذا ميوزك العرب @TelethonMusic
+🎶 هذا ميوزك جيبثون @jepthon
 
 """
     await m.reply(REPO, disable_web_page_preview=True)
