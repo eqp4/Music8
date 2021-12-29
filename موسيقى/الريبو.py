@@ -30,7 +30,7 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ تم اعاده تشغيل موسيقى جيبثون)
+    await loli.edit("**✅ تم اعاده تشغيل موسيقى سورس جيبثون")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 @Client.on_message(filters.command(["اوامر الاغاني"], prefixes=f"{HNDLR}"))
